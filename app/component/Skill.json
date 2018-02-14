@@ -1,0 +1,9 @@
+{
+	"title": {
+		"title_CN" : "技术栈",
+		"title_EN" : "skill"
+	},
+	"master": ["html + css", "Javascript", "Jquery", "JS基础类库", "常用数据结构和基础算法"],
+	"familiar": ["c++", "bootstrap框架", "node.js", "react.js、JSX", "git工具"],
+	"know": ["ES6语法", "angular.js、vue.js语法", "浏览器渲染机制、SEO", "xml操作、XPath和XSLT语法", "前端工程化、webpack"]
+}

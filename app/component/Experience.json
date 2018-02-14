@@ -1,0 +1,20 @@
+{
+	"title": {
+		"title_CN" : "实习经历",
+		"title_EN" : "experience"
+	},
+	"extra": {
+		"time": "2017.08.01-2017.08.31",
+		"company": "广东昭信平洲电子有限公司",
+		"job": "信息技术员"
+	},
+	"content": [{
+		"title": "公司宣传网站的设计及开发",
+		"link": "https://github.com/huanghlun/pzdz",
+		"work": [
+			"负责前端和后端的开发，部分网页展示的设计", 
+			"jquery语言框架 + html + css，构建网站view视图层, 网站前端为静态的html网页，前后端通过ajax进行通信",
+			"asp + access搭建服务端，asp处理后端逻辑，access数据库存储前端数据"
+		]
+	}]
+}

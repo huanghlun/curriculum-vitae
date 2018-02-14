@@ -1,0 +1,120 @@
+.name, .detail {
+	/*background-color: #6b6c73;*/
+	border-radius: 8px;
+	padding: 10px 20px;
+	color: grey;
+	line-height: 1.8em;
+	flex: none;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+.name {
+	width: 280px;
+}
+
+.detail {
+	width: 425px;
+	overflow: hidden;
+}
+
+.name h3 {
+	font-weight: normal;
+	font-size: 1.5rem;
+	margin-bottom: 0.4em;
+}
+
+.name p, .detail p {
+	font-size: 1rem;
+}
+
+.detail p {
+	min-width: 48%;
+	float: left;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+.detail a:link, .detail a:visited {
+	color: grey;
+}
+
+.detail a:hover, .detail a:active {
+	color: #6a6a6b;
+}
+
+i, span {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+i {
+	width: 24px;
+}
+
+.container {
+	display: table-cell; 
+	overflow: hidden; 
+	vertical-align: middle;
+}
+
+@media screen and (max-width: 500px) {
+
+	/*.container, .name, .detail {
+		display: block;
+		margin: 0 auto !important;
+		/*text-align: center;
+	}*/
+
+	 /*.name, .detail {
+	 	float: none;
+	 	width: 100%
+	 }
+
+	 .name p, .detail p{
+	 	padding-left: 14%;
+	 }
+
+	 .name h3{
+	 	text-align: center;
+	 }
+
+	 .detail p {
+	 	width: 100%
+	 }*/
+
+	 .name, .detail {
+	 	font-size: 0.8rem;
+	 	line-height: 2em;
+	 }
+
+	 .name {
+	 	flex: 1;
+	 	width: auto;
+	 	white-space: nowrap;
+	 }
+
+	 /*.name p span{
+	 	white-space: pre-wrap;
+	 }*/
+
+	 .detail {
+	 	border-top: 1px dotted rgba(100, 100, 100, 0.2);
+	 	padding: 10px 10px;
+	 	overflow: hidden;
+	 	display: flex;
+	 	align-items: center;
+	 	align-content: center;
+	 	flex-wrap: wrap;
+	 }
+
+	 .detail p {
+	 	flex: none;
+	 	width: 100%;
+	 	/*min-width: 0%;*/
+	 }
+
+	 /*.detail p {
+	 	width: 100%
+	 }*/
+}
